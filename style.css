@@ -1,0 +1,82 @@
+.offer {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    color: rgb(2, 0, 0);
+    font-size: xx-small;
+    gap: 10px;
+    height: 50px;
+    
+
+
+}
+
+
+.offer button{
+    background: rgb(239, 65, 65);
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 0px;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+.offer button:hover {
+    background: black;
+    color: red;
+}
+.offer h1{
+    margin-left: 250px;
+    margin-top: 15px;
+    
+}
+.navbar .logo {
+    width: 70px;
+}
+
+
+
+
+
+.navbar
+{
+    background: rgb(18, 18, 18);
+    /* block-size: 80px; */
+    /* align-items: center; */
+    height: 85px;
+    display: flex;
+}
+
+.navbar .navList ul
+
+{   
+    display: flex;
+    color: white;
+    gap: 40px;
+    list-style: none;
+    margin-left: 470px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+
+    
+}
+.navbar .navList :hover 
+{
+    color: red;
+}
+
+.navList li a{
+text-decoration: none;
+color: white;
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
